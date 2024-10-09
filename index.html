@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персональна сторінка Мазка Назарія</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Підключення зовнішнього файлу CSS -->
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо на персональну сторінку Мазка Назарія</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про себе</a></li>
+                <li><a href="favorites.html">Улюблені книжки/фільми</a></li>
+                <li><a href="experience_skiils.html">Досвід роботи та навички</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Про проект</h2>
+        <p>Ця веб-сторінка присвячена моїм інтересам, улюбленим книжкам та фільмам.</p>
+        <p>Сподіваюсь, вам буде цікаво!</p>
+        <hr> <!-- Лінія після секції -->
+    </section>
+
+    <section>
+        <h2>Форма зворотного зв'язку</h2>
+        <hr> <!-- Лінія перед формою -->
+        <form action="https://formsubmit.co/nazar.mazko@gmail.com" method="POST">
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required placeholder="Введіть ваше ім'я"><br><br>
+
+            <label for="email">Ваша електронна пошта:</label>
+            <input type="email" id="email" name="email" required placeholder="example@mail.com"><br><br>
+
+            <label for="message">Ваше повідомлення:</label><br>
+            <textarea id="message" name="message" required placeholder="Введіть ваше повідомлення" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Відправити">
+        </form>
+    </section>
+
+    <footer>
+        <p>Контактна інформація: <a href="mailto:nazar.mazko@gmail.com">nazar.mazko@gmail.com</a></p>
+        <p>Мій номер: 0978322231</p>
+    </footer>
+</body>
+</html>
